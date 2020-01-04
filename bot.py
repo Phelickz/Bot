@@ -201,7 +201,7 @@ def tasks():
 		print(" ")
 		print("Welcome to Felix's Weather Forecast! Please ensure your data connection is turned on. Thank you.")
 		print(" ")
-		api_key="c6ab566b12cd433979293fe179e59522"
+		api_key=
 		base_url="http://api.openweathermap.org/data/2.5/weather?"
 		city_name=input("Enter city name: ")
 		complete_url= base_url + "appid=" + api_key + "&q=" + city_name
